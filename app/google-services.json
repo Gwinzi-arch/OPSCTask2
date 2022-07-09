@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "1023388674634",
+    "project_id": "sblcollections-6ffa0",
+    "storage_bucket": "sblcollections-6ffa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023388674634:android:60ed0821578b03ccf754b3",
+        "android_client_info": {
+          "package_name": "com.sanelegwinyai.sbl_photocollections"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023388674634-nvljbn8r92jr11tsiq0kqkervdugesem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAByA052s3cQ0bBx0vmUDqWFtygZQpqPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023388674634-nvljbn8r92jr11tsiq0kqkervdugesem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023388674634:android:4d96e4633b06f1e7f754b3",
+        "android_client_info": {
+          "package_name": "com.sanelegwinyai.sblcollections"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023388674634-nvljbn8r92jr11tsiq0kqkervdugesem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAByA052s3cQ0bBx0vmUDqWFtygZQpqPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023388674634-nvljbn8r92jr11tsiq0kqkervdugesem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023388674634:android:7c995dcd923fffa0f754b3",
+        "android_client_info": {
+          "package_name": "om.sanelegwinyai.sbl_photocollections"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023388674634-nvljbn8r92jr11tsiq0kqkervdugesem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAByA052s3cQ0bBx0vmUDqWFtygZQpqPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023388674634-nvljbn8r92jr11tsiq0kqkervdugesem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/purple_700">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:src="@color/purple_200" />
+
+        <ImageView
+            android:id="@+id/iconIv"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iconIv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Choose your action"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/categoryTil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintEnabled="false"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="225dp">
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Add category button -->
+
+    <Button
+        android:id="@+id/ButtonURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoryTil"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="38dp"
+        android:background="@color/purple_700"
+        android:text="Create category and save image with URL"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/ButtonFiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoryTil"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="38dp"
+        android:background="@color/purple_700"
+        android:text="Create category and save image with file"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/Graph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoryTil"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="38dp"
+        android:background="@color/purple_700"
+        android:text="Graph"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/SetGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoryTil"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="38dp"
+        android:background="@color/purple_700"
+        android:text="Set goal"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
